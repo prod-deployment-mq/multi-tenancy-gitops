@@ -4,8 +4,8 @@ resources:
 #- argocd/ace/stage.yaml
 #- argocd/ace/prod.yaml
 
-#- argocd/mq/cicd.yaml
-#- argocd/mq/dev.yaml
+- argocd/mq/cicd.yaml
+- argocd/mq/dev.yaml
 #- argocd/mq/stage.yaml
 #- argocd/mq/prod.yaml
 
@@ -19,8 +19,8 @@ resources:
 #- argocd/apic/multi-cluster-app.yaml
 #- argocd/apic/multi-cluster-ops.yaml
 
-- argocd/bookinfo/cicd.yaml
-- argocd/bookinfo/dev.yaml
+#- argocd/bookinfo/cicd.yaml
+#- argocd/bookinfo/dev.yaml
 #- argocd/bookinfo/stage.yaml
 #- argocd/bookinfo/prod.yaml
 
