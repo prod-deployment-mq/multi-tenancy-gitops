@@ -33,4 +33,3 @@ spec:
               replicas: 2
               storage:
                 class: managed-nfs-storage
-
